@@ -12,3 +12,6 @@ float: right;
 .target{
   font-style: normal;
 }
+.double{
+  font-weight: bold;
+}
