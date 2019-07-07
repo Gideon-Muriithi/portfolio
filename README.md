@@ -15,6 +15,6 @@ I am going to provide in this README.
 
 Link to a live site:
 
-Copyright and License:
+Copyright and License: https://gideon-muriithi.github.io/portfolio/
 This use MIT licensing. It is therefore to everyone and anyone has a right for modification.
 Copyright 2019.
