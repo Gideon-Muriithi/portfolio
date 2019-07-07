@@ -15,6 +15,7 @@ position: absolute;
 }
 .target{
   font-style: normal;
+  font-weight: bold;
 }
 .double{
   font-weight: bold;
