@@ -1,5 +1,7 @@
 body{
   font-family: sans-serif;
+  border-spacing: inherit;
+  background-color: grey;
 }
 img{
   height: 200px;
