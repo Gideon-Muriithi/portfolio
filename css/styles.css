@@ -6,3 +6,9 @@ img{
   width: 200px;
 float: right;
 }
+.selector{
+  font-style: italic;
+}
+.target{
+  font-style: normal;
+}
