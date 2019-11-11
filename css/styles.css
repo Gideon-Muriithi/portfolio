@@ -1,7 +1,7 @@
 body{
   font-family: sans-serif;
   border-spacing: inherit;
-  background-color: green;
+  margin-top: 80px;
 }
 img{
   height: 150px;
@@ -20,9 +20,7 @@ position: absolute;
 .double{
   font-weight: bold;
 }
-.test-box{
-  border: none;
-  padding: 3px;
-  margin: 10px;
-  background-color: red;
+
+#contact {
+  color: whitesmoke;
 }
