@@ -1,109 +1,390 @@
-<!Doctype html>
-<html>
-
+<!DOCTYPE html>
+<html class="no-js">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link a href="css/styles.css" rel="stylesheet">
-  <title>Gideon Programming Portfolio.</title>
+<!-- Add Your Title -->
+  <title> My Portfolio </title>
+
+<!-- All Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+<!-- All Link tags -->
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+  
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+<!-- All script tags -->
+  <script>document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
+  <script src="js/main.js"></script>
+
 </head>
 
-<body>
-  <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top" style="background-color: rgb(54, 54, 233);">
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="/">WELCOME TO MY PORTIFOLIO</a>
-    <!-- Collapse button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="basicExampleNav">
-      <!-- Links -->
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">ABOUT ME
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" id="contact">CONTACT ME</a>
-        </li>
-      </ul>
-    </div>
-    <!-- Collapsible content -->
-  </nav>
-  <!--/.Navbar-->
+<!-- Start of Body Tag -->
+<body class="bg-fixed bg-1">
+  <div class="main-container">
+   	<div class="main wrapper clearfix">
 
-  <div class="container-fluid">
-    <h2>Introduction</h2>
-    <p>My name is Gideon Gakenge Muriithi. My <strong>photo</strong> is on your right
-      .The following is a list of some of the projects I have created
-      together with their active links:</p>
-    <!-- <img src="images/gideonpic.jpg" alt="Gideon photo"> -->
-    <ol>
-      <li>This is a link to <a href="https://gideon-muriithi.github.io/quotes/">Angular App That Displays Quotes</a>
-      </li>
-      <li>Here is a link to <a href="https://graminsta-clone.herokuapp.com/">Instagram Clone With Django</a></li>
-      <li>Here is a link to <a href="https://gideon-blogging-web.herokuapp.com/">Flask Blog</a></li>
-    </ol>
-    <h3>About Me</h3>
-    <ul>
-      <li><strong>My Backgroud</strong>.</li>
-      <ol>
-        <li><strong>My education</strong></li>
-        <div class="selector">
-          <ul>
-            <li>2015-2018: Pursued Bachelors of Business Information Technology
-              at Jomo Kenyatta University of Agriculture and
-              Technology (JKUAT) (Second Class Honours Upper Division).
-            </li>
-            <li>2011-2014: St. Mary's Boys High School-Nyeri (A-).</li>
-            <li>2001-2010: Mweiga Primary School.</li>
-          </ul>
-          <li><span class="target">Job Experience</span></li>
-          <ul>
-            <li>Nov 2014-Jan 2015: Volunteered at Mukurweini SubCounty Hospital.</li>
-            <li>Feb 2015-April 2015: Untrained teacher at Muote Elite Academy.</li>
-            <li>Feb 2018-May 2018: Industrial attachment at Kiambu Water Company, formerly known as
-              Ruiru-Juja Water and Sewerage Company
-              (RUJWASCO).
-            </li>
+ 		<!-- Header Start -->
+     	<header id="header">
+       	<div id="logo">
+         	<h6>
+               	Gideon Muriithi
+         	</h6>
+         	<h4>
+              	Tag1 / Tag2
+         	</h4>
         </div>
-        <li><strong>Why I Decided To Take Class On Programming</strong></li>
-        <p>I have always wanted to code. After I completing campus, I had this feeling that I did not get
-          the programming skills that I was expecting to acquire in the campus. I therefore enrolled
-          to programming class to get more skills in Programming.I felt that Moringa School is going to
-          equip me with those skills and I therefore enrolled into the school. I am very passionate About
-          programming and I hope to acquire the necessary skills that will help me to realize my dream of
-          being a certified fullstack web developer.
-        </p>
-    </ul>
-    <p span class="double">My Current Interests/Hobbies/Skills</p>
-    <ol>
-      <li>Nature walking.</li>
-      <li>Singing and listening to music.</li>
-      <li>Playing the guitar.</li>
-      <li> Reading educative materials.</li>
-    </ol>
-    </ul>
+    	</header>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
+    <!-- Text "hello world" -->
+     	<header id="header">
+       	<div id="helloworld">
+         	<h3 style="color: white;">
+               	WELCOME TO MY PORTFOLIO!
+         	</h3>
+       	</div>
+    	</header>
+
+   	<!-- Main Tab Container -->
+      <div id="tab-container" class="tab-container">
+
+       	<!-- Tab List -->
+        <ul class='etabs'>
+
+          <li class='tab' id="tab-about">
+           	<a href="#about">
+           		<i class="icon-user"></i>
+           			<span>
+                 				About Me
+           			</span>
+          	</a>
+          </li>
+
+          <li class='tab'>
+            <a href="#resume">
+            	<i class="icon-file-text"></i>
+            		<span>
+                			 Skills
+            		</span>
+            </a>
+          </li>
+
+          <li class='tab'>
+            <a href="#portfolio">
+           		<i class="icon-heart"></i>
+           			<span>
+               				 Projects
+         				</span>
+            </a>
+          </li>
+
+          <li class='tab'>
+            <a href="#contact">
+             	<i class="icon-envelope"></i>
+                <span>
+                 			Contact
+            		</span>
+            </a>
+          </li>
+
+        </ul>
+      	<!-- End Tab List -->
+
+<!-- ----------------------------------------------------------------------------------- -->
+    <!-- Code for differents Tabs strat from here. -->
+    <div id="tab-data-wrap">
+
+      <!-- About Tab Data -->
+      <div id="about">
+        <section class="clearfix">
+          <div class="g2">
+            <div class="photo">
+              <img src="images/pic.jpg" alt="Your alt text">
+            </div>
+            <div class="info">
+              <h2>
+                <p></p>
+                        Gideon Muriithi
+              </h2>
+              <h4>
+          
+              </h4>
+              <p>
+                        Full Stack Developer And Tech Enthusiast
+              </p>
+              </p>
+            </div>
+          </div>
+
+          <div class="g1">
+            <div class="main-links sidebar">
+              <ul>
+                <li>
+                  <a href="#resume">
+                            View My Skills
+                  </a>
+                </li>
+                <li>
+                  <a href="#portfolio">
+                            View My Projects
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact">
+                             Hire me for your next project
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="break">
+          </div>
+          <div class="contact-info">
+            <div class="g1">
+              <div class="item-box clearfix">
+                <i class="icon-envelope"></i>
+                  <div class="item-data">
+                    <h3>
+                      <a href="mailto:write@your_mail.here">
+                                Add Your mail
+                      </a>
+                    </h3>
+                    <p>
+                         Email Address
+                    </p>
+                  </div>
+              </div>
+            </div>
+          <div class="g1">
+            <div class="item-box clearfix">
+              <i class="icon-facebook"></i>
+                <div class="item-data">
+                  <h3>
+                    <a href="http://fb.me/your-Username">
+                                  Add Facebook Link
+                    </a>
+                  </h3>
+                  <p>
+                         Facebook Profile
+                  </p>
+                </div>
+            </div>
+          </div>
+          <div class="g1">
+            <div class="item-box clearfix">
+              <i class="icon-twitter"></i>
+                <div class="item-data">
+                  <h3>
+                    <a href="http://twitter.com/your-Username">
+                         Add Twiter username
+                    </a>
+                  </h3>
+                  <p>
+                         Twitter Handle
+                  </p>
+                </div>
+            </div>
+          </div>
+          </div>
+        </section>
+      </div>
+    <!-- End About Tab Data -->
+<!-- ----------------------------------------------------------------------------------- -->
+    <!-- skills Tab Data -->
+      <div id="resume">
+        <section class="clearfix">
+          <div class="g2">
+            <h3>
+                 Programming Languages
+            </h3>
+            <div class="meter emerald">
+              <span style="width: 90%">
+                <span>
+                        Python
+                </span>
+              </span>
+            </div>
+            <div class="meter emerald">
+              <span style="width: 90%">
+                <span>
+                        Javascript
+                </span>
+              </span>
+            </div>
+            <div class="break"></div>
+          </div>
+
+          <div class ="g1">
+            <h3>
+                  Skills
+            </h3>
+            <div class="meter emerald">
+              <span style="width: 70%">
+                <span>
+                        Angular CLI 
+                </span>
+              </span>
+            </div>
+            <div class="meter emerald">
+              <span style="width: 85%">
+                <span>
+                        Python Flask
+                </span>
+              </span>
+            </div>
+            <div class="meter emerald">
+              <span style="width: 80%">
+                <span>
+                        Python Django
+                </span>
+              </span>
+            </div>
+            <div class="meter emerald">
+              <span style="width: 90%">
+                <span>
+                        Postgress Database
+                </span>
+              </span>
+            </div>
+            <div class="meter emerald">
+              <span style="width: 65%">
+                <span>
+                      Accounting basics
+                </span>
+              </span>
+            </div>
+          </div>
+
+          <div class="g2">
+            <h3>
+                  Hobbies
+            </h3>
+            <span class="label label-info">Reading educative materials</span>
+            <span class="label label-info">Nature walking</span>
+            <span class="label label-info">Playing the guitar as well as keyboard</span>
+            <span class="label label-info mt-3">Watching nature documentaries</span>
+          </div>
+        </section>
+      </div>
+
+    <!-- End skills Tab Data -->
+<!-- ----------------------------------------------------------------------------------- -->
+    <!-- Projects Tab Data -->
+      <div id="portfolio">
+        <section class="clearfix">
+          <table>
+                  <tbody id = "table-body">
+                    <tr>
+                      <td>
+                        <div class="project-div">
+                          <div class="image">Project image</div>
+                          <div class="data">Project</div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="project-div">
+                          <div class="image">Project image  </div>
+                          <div class="data">Project</div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="project-div">
+                          <div class="image">Project image</div>
+                          <div class="data">Project</div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="project-div">
+                          <div class="image">Project image</div>
+                          <div class="data">Project</div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="project-div">
+                          <div class="image">Project image</div>
+                          <div class="data">Project</div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="project-div">
+                          <div class="image">Project image</div>
+                          <div class="data">Project</div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+        </section>
+      </div>
+    <!-- End Projects tab -->
+<!-- ----------------------------------------------------------------------------------- -->
+    <!-- Contact Tab Data -->
+      <div id="contact">
+        <section class="clearfix">
+          <div class="g1">
+            <div class="sny-icon-box">
+              <div class="sny-icon">
+                <i class="icon-globe"></i>
+              </div>
+              <div class="sny-icon-content">
+                <h4>
+                    Address
+                </h4>
+                <p>
+                    Type here
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="g1">
+            <div class="sny-icon-box">
+              <div class="sny-icon">
+                <i class="icon-phone"></i>
+              </div>
+              <div class="sny-icon-content">
+                <h4>
+                    E-mail
+                </h4>
+                <p>
+                    Add your mail 1<br/>Add your mail 2
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="g1">
+            <div class="sny-icon-box">
+              <div class="sny-icon">
+                <i class="icon-user"></i>
+              </div>
+              <div class="sny-icon-content">
+                <h4>
+                    About Me
+                </h4>
+                <p>
+                    Write something about you
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="break"></div>
+        </section>
+      </div>
+    <!-- End Contact Data -->
+<!-- ----------------------------------------------------------------------------------- -->
+    </div>
   </div>
 </body>
-
 </html>
